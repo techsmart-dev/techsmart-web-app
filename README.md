@@ -16,7 +16,8 @@ npm install admin-lte@v3.0.0-alpha.2 --save
 5. In the __bootstrap.js__ add the add the __@require('admin-lte');__ below 
 __@require('bootstrap');__ 
 
-6. In the __app.scss__ and the __@import '~admin-lte/dist/css/adminlte.css';__ below __@import '~bootstrap/scss/bootstrap';
+6. In the __app.scss__ and the __@import '~admin-lte/dist/css/adminlte.css';__  below 
+__@import '~bootstrap/scss/bootstrap';
 
 7. Run the below command to update:
 ```
