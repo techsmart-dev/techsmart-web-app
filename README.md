@@ -11,3 +11,6 @@ npm install admin-lte@v3.0.0-alpha.2 --save
  <script src="/js/app.js"></script>
 
 ```
+4. Change the __extends('layouts.app')__ to __extends('layouts.master')__ in __home.blade.php
+
+5. 
