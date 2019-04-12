@@ -13,4 +13,17 @@ npm install admin-lte@v3.0.0-alpha.2 --save
 ```
 4. Change the __extends('layouts.app')__ to __extends('layouts.master')__ in __home.blade.php
 
-5. 
+5. In the __bootstrap.js__ add the add the __@require('admin-lte');__ below 
+__@require('bootstrap');__ 
+
+6. In the __app.scss__ and the __@import '~admin-lte/dist/css/adminlte.css';__ below __@import '~bootstrap/scss/bootstrap';
+
+7. Run the below command to update:
+```
+npm run watch
+```
+8.  Install the font-awesome using while the __npm run watch__ is still running
+```
+npm install @fontawesome/fontawesome-free
+```
+
