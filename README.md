@@ -25,7 +25,7 @@ npm run watch
 ```
 8.  Install the font-awesome using while the __npm run watch__ is still running
 ```
-npm install font-awesome --save-dev
+npm install --save-dev @fortawesome/fontawesome-free
 
 ```
 
